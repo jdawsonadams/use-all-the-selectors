@@ -22,13 +22,20 @@ h2 {
   color: #93a1a1;
 }
 
-.wrapper > .different {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.dfn + strong {
+p + strong {
   color: #fff;
 }
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+[rel="external"] {}
+[data-state="visible"] {}
 
 ol li:first-child {
   color: #719e47;
