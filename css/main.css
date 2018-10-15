@@ -1,5 +1,5 @@
 body {
-background-color: #fdf6e3;
+  background-color: #fdf6e3;
 }
 
 header, footer {
@@ -34,8 +34,9 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-[rel="external"] {}
-[data-state="visible"] {}
+[rel="external"] {
+  background-color: #2694d8;
+}
 
 ol li:first-child {
   color: #719e47;
